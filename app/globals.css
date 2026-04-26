@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --rs-black: #000000;
+  --rs-white: #FFFFFF;
+  --rs-blue: #00B0FF;
+  --rs-orange: #FF6B1A;
+  --rs-ink: #0A0A0A;
+  --rs-paper: #FAFAFA;
+  --rs-rule: #1A1A1A;
+  --rs-mute: #6B6B6B;
+}
+
+html, body { background: var(--rs-white); color: var(--rs-ink); }
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--rs-mute);
+}
+
+.display {
+  font-family: var(--font-display);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+}
+
+.rule { border-top: 1px solid var(--rs-rule); }
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--rs-ink);
+  color: var(--rs-white);
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.875rem 1.25rem;
+  border: 1px solid var(--rs-ink);
+  transition: all 150ms ease;
+}
+.btn-primary:hover { background: var(--rs-blue); border-color: var(--rs-blue); color: var(--rs-ink); }
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: transparent;
+  color: var(--rs-ink);
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.875rem 1.25rem;
+  border: 1px solid var(--rs-ink);
+  transition: all 150ms ease;
+}
+.btn-ghost:hover { background: var(--rs-orange); border-color: var(--rs-orange); }
+
+.tick { color: var(--rs-blue); }
+.flame { color: var(--rs-orange); }
+
+@keyframes scrolltick {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
+.scroll-tick { animation: scrolltick 1.6s ease-in-out infinite; }
