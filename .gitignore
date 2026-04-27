@@ -5,3 +5,6 @@ out
 .vercel
 *.log
 .DS_Store
+
+# Claude Code worktree scaffolding
+.claude/
