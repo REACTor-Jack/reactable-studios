@@ -104,7 +104,7 @@ export default function Home() {
             <div className="lg:col-span-7 lg:pt-2">
               <p className="text-xl leading-snug">
                 <span className="font-mono text-rs-blue">REACT Premium Escape Rooms</span>{" "}
-                has filled rooms in Manchester, Connecticut every weekend for ten years.
+                has filled rooms in Windsor Locks, Connecticut every weekend for ten years.
                 The brand, the site, the SEO, the campaigns, the swag, the live-event
                 signage — all of it built and run in-house.
               </p>
