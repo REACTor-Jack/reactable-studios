@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   title: "REACTable Studios — Logo to souvenir. We build the whole campaign.",
   description:
     "Full-service marketing studio. Brand, web, SEO, GEO, AI-ready content, and physical product — all under one roof. Powered by ten years of REACT.",
-  metadataBase: new URL("https://reactablestudios.vercel.app"),
+  metadataBase: new URL("https://reactable-studios.vercel.app"),
   openGraph: {
     title: "REACTable Studios",
     description:
